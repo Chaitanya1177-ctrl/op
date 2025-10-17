@@ -81,7 +81,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:3000", // for local dev
+      "http://localhost:6002", // for local dev
       "https://willowy-meringue-8e35ef.netlify.app", // your deployed frontend
     ],
     credentials: true,
